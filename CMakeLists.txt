@@ -29,7 +29,7 @@ if (CONTROL_TOOLBOX_STANDALONE)
     FetchContent_MakeAvailable(emil)
 endif()
 
-project(control_toolbox LANGUAGES C CXX ASM VERSION 0.0.1) # x-release-please-version
+project(control_toolbox LANGUAGES C CXX ASM VERSION 1.0.0) # x-release-please-version
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED On)
